@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    
+</head>
+<body>
+    <h1 id="title" > CALCULATOR</h1>
+    <p  id="description" >Calculator using DOM manipulation </p>
+    <div class="container">
+    <div class="calculator">
+        
+        <div>      
+        <input type="text" class="display" placeholder="0" id="result">
+        <div  class="buttons">
+        <button id="clear"  style="color:white" onclick="Clearscreen()">AC</button>
+        <button  style="color:yellow" onclick="delet()">←</button>
+        <button class="input-button" style="color:yellow" onclick="display('.')">.</button> 
+        <button class="input-button" style="color:yellowgreen" onclick="dispinto()">X</button>       
+        <button class="input-button " style="color:yellow" onclick="display('7')">7</button>       
+        <button class="input-button " style="color:yellow" onclick="display('8')">8</button>         
+        <button class="input-button"  style="color:yellow" onclick="display('9')">9</button>       
+        <button class="input-button " style="color:yellowgreen" onclick="display('/')">/</button>      
+        <button class="input-button"  style="color:yellow" onclick="display('4')">4</button>       
+        <button class="input-button " style="color:yellow" onclick="display('5')">5</button>       
+        <button class="input-button " style="color:yellow" onclick="display('6')">6</button>        
+        <button class="input-button"  style="color:yellowgreen" id="subtract" onclick="display('-')">-</button>       
+        <button class="input-button" style="color:yellow" id="1" onclick="display('1')">1</button>       
+        <button class="input-button " id="2" style="color:yellow" onclick="display('2')">2</button>      
+        <button class="input-button"  style="color:yellow" id="3" onclick="display('3')">3</button>     
+        <button class="input-button"  style="color:yellowgreen"  id="add" onclick="display('+')">+</button>      
+        <button class="input-button " style="color:yellow" onclick="display('0')">0</button>       
+        <button class="input-button " style="color:yellow" onclick="display('00')">00</button>
+        <button class="input-button" style="background: rgb(205, 133, 50);color:white" onclick="Calc()" id="equal">=</button>
+
+    </div>
+    </div> 
+    </div>
+
+</div>
+<script src="script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
