@@ -42,11 +42,11 @@ document.getElementById("result").onkeypress = function typing(event){
    }
 }
 document.querySelector('#clearscreen').Calc();
-// var one = document.getElementById('1');
-// var two = document.getElementById('2');
-// var add = document.getElementById('add');
-// var result = document.getElementById('result');
-// one.click();
-// add.click();
-// two.click();
+var one = document.getElementById('1');
+var two = document.getElementById('2');
+var add = document.getElementById('add');
+var result = document.getElementById('result');
+one.click();
+add.click();
+two.click();
 document.getElementById('result').Calc();
